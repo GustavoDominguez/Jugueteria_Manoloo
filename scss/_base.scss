@@ -1,0 +1,18 @@
+// Variables
+*{
+    margin: 0;
+    padding: 0;
+}
+$colorTitulos:red;
+$colorTextos:rgb(0, 255, 149);
+$backgroundPrimario:blue;
+ //listas
+$color: 
+blue
+red
+yellow
+cyan;
+
+p{
+    color:nth($color, 2);
+}

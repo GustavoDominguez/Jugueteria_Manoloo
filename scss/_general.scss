@@ -1,0 +1,16 @@
+// Todo lo que se repite en los archivos
+h1{
+    color: black;
+}
+nav{
+    background-color: $backgroundPrimario;
+    ul{
+        display: flex;
+        li{
+            margin: 10px;
+            a{
+                color: $colorTextos;
+            }
+        }
+    }
+}
