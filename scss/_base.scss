@@ -3,16 +3,20 @@
     margin: 0;
     padding: 0;
 }
-$colorTitulos:red;
-$colorTextos:rgb(0, 255, 149);
-$backgroundPrimario:blue;
+$colorTitulo:rgb(255, 255, 255);
+$colorSubtitulo:blueviolet;
+$colorTextos:rgb(0, 26, 255);
+$backgroundHeader:#f7971e;
+$backgroundFooter:#f7971e;
  //listas
 $color: 
 blue
 red
 yellow
-cyan;
+cyan
+black;
+
 
 p{
-    color:nth($color, 2);
+    color:nth($color, 4);
 }

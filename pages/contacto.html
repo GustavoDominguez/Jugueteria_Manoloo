@@ -7,13 +7,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/styles.css"><!-- Es Para linkear el Css -->
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body> 
      <header>
-            <h1>Contacto</h1>
+            <h1>Jugueteria Manolo</h1>
                             <nav>
-                                <ul class="inicio">
+                                <ul>
                                    <li><a href="../index.html">INICIO</a></li>
                                    <li><a href="./juegosyjuguetes.html">JUEGOS Y JUGUETES</a></li>
                                    <li><a href="./bebes.html">BEBÉS</a></li>
@@ -22,36 +22,59 @@
                                 </ul>
                             </nav>
      </header>
-    <section>
-        <div>
-            <h2>Hola! Muchas gracias por querer ponerte en contacto con nosotros.  Déjanos tu consulta!</h2>
+     <main>
+            <section>
+                <div>
+                    <h2>Hola! Muchas gracias por querer ponerte en contacto con nosotros.  Déjanos tu consulta!</h2>
+                </div>
+            </section>
+            <section class="formulario">
+                <form>
+                    <h3>Ponete en Contacto</h3>
+                            <input type="text" id="nombreapellido" name="nombreapellido" placeholder="Nombre y Apellido" required>
+                            <input type="email" id="email" name="email" placeholder="Email" required>
+                            <input type="text" id="telefono" name="telefono" placeholder="Número de Telefono"> 
+                            <h4>Dejanos Tu Mensaje</h4>
+                            <textarea name="mensajeusuario" id="mensajeusuario" cols="30" rows="10" placeholder="Mensaje" required></textarea> 
+                            <input type="submit" class="btn" value="Enviar Mensaje">
+                </form>
+            </section>
+    </main>
+    <footer>
+        <div class="padre">
+        <div class="hijo">
+                    <h3>Compras</h3>
+                                <ul>
+                                    <li>Medios de Pago</li>
+                                    <li>Reclamos</li>
+                                    <li>Promociones</li>
+                                </ul>
         </div>
-    </section>
-    <section>
-            <fieldset class="contacto">
-            <legend>Ponete en Contacto</legend><!-- Es Para Agruparlo al Cuadro -->
-            </fieldset>
-            <form class="cuadro" action="" method="post" enctype="text/plain">
-                <fieldset><!-- Es Para Agrupar los distintos elementos de un Formulario que cumplen un mismo Proposito -->
-                    <label for="nombreapellido">Nombre y Apellido</label>
-                    <input type="text" id="nombreapellido" name="nombreapellido" placeholder="Nombre y Apellido" required> <!-- Con el Atributo type lo vamos a decir que tipo es --><!-- Con placeholder Vamos a poder mostrar un Mensajito en el Recuadro -->
-                </fieldset>
-                <fieldset>
-                    <label for="email">Dejanos Tu Email</label>
-                    <input type="email" id="email" name="email" placeholder="Email" required><!-- El required sirve para completar el campo -->
-                </fieldset>
-                <fieldset>
-                    <label for="telefono">Número de Telefono</label>
-                    <input type="text" id="telefono" name="telefono" placeholder="Número de Telefono">
-                </fieldset>    
-                 
-                    <label for="mensajeusuario">Dejanos Tu Mensaje</label>   
-                    <textarea name="mensajeusuario" id="mensajeusuario" cols="30" rows="10" placeholder="Mensaje" required></textarea> 
-                </fieldset> 
-
-                    <input type="submit" value="Enviar Mensaje"><!-- Es Para Enviar el Formulario --><!-- Atributo Value es para Cambiar el Texto -->
-                    
-            </form>
-    </section>
+        <div class="hijo">
+                    <h3>Nosotros</h3>
+                                <ul>
+                                    <li>Trabaja con Nosotros</li>
+                                    <li>Politica de Privacidad</li>
+                                </ul>
+        </div>
+        <div class="hijo">
+                    <h3>Redes</h3>
+                                <ul>
+                                    <li><a href="https://www.https://www.facebook.com/"><ion-icon name="logo-facebook"></ion-icon>Facebook</a></li>
+                                    <li><a href="https://www.instagram.com/"><ion-icon name="logo-instagram"></ion-icon>Instagram</a></li>
+                                    <li><a href="https://www.youtube.com/"><ion-icon name="logo-youtube"></ion-icon>YouTube</a></li>
+                                </ul>   
+        </div>
+        <div class="hijo">
+                    <h3>Contacto</h3>
+                                <ul>
+                                    <li>Whatsapp<ion-icon name="logo-whatsapp"></a></ion-icon></li>
+                                    <li>Correo<ion-icon name="mail-outline"></a></ion-icon></li>
+                                </ul>
+        </div>
+        </div> 
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
