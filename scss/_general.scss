@@ -27,13 +27,32 @@ nav{
             a{
                 color:black;
                 text-decoration: none;
-                font-weight: 500;
+                font-weight: 900;
             }
         }
     }
 }
 footer{
-    background-color: $backgroundFooter;
-    font-family: "Caveat", sans-serif;
-    
+        background-color: $backgroundFooter;
+        font-family: "Caveat", sans-serif;
+        ul{
+            list-style-type: none;
+            li{
+                 font-size: 25px;
+                 color:black;
+                 font-weight: 900;
+                 a{
+                    color:black;
+                    text-decoration: none;
+                    font-weight: 900;
+                 }
+                }
+            }
+} 
+footer{
+    h3{
+        color: red;
+        font-size: 30px;
+        font-weight: 900; 
+    }
 }

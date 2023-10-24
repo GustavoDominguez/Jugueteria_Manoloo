@@ -3,10 +3,6 @@
   padding: 0;
 }
 
-p {
-  color: cyan;
-}
-
 html {
   font-size: 62.5%;
 }
@@ -40,12 +36,75 @@ nav ul li {
 nav ul li a {
   color: black;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 900;
 }
 
 footer {
   background-color: #f7971e;
   font-family: "Caveat", sans-serif;
+}
+footer ul {
+  list-style-type: none;
+}
+footer ul li {
+  font-size: 25px;
+  color: black;
+  font-weight: 900;
+}
+footer ul li a {
+  color: black;
+  text-decoration: none;
+  font-weight: 900;
+}
+
+footer h3 {
+  color: red;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Caveat", sans-serif;
+}
+
+main {
+  margin: 20px 30px;
+}
+
+p {
+  color: blue;
+  font-size: 25px;
+}
+
+h2 {
+  color: red;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+ol {
+  list-style-type: none;
+}
+ol li {
+  font-size: 25px;
+  color: blue;
+}
+
+.irarriba {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.padre {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 /*# sourceMappingURL=styles.css.map */

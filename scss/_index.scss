@@ -1,0 +1,39 @@
+@import "base";
+body{
+    font-family: "Caveat", sans-serif;
+}
+
+main{
+    margin: 20px 30px;
+}
+
+p{
+    color:nth($color, 1);
+    font-size: 25px;
+}
+
+h2{
+    color:nth($color, 2);
+    font-size: 30px; 
+    font-weight: 900;
+}
+
+ol{
+    list-style-type: none;  
+    li{
+        font-size: 25px; 
+        color:nth($color, 1);
+    }  
+}
+
+.irarriba{
+    font-size: 20px; 
+    display: flex;
+    flex-direction: column;
+}
+
+.padre{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
