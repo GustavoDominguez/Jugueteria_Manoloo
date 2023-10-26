@@ -1,0 +1,14 @@
+@import "base";
+
+.container-items-bebe{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.itemjuegos img{
+    width: 100%;
+    height: 200px;
+    object-fit:none;
+    border-radius: 10px;
+}

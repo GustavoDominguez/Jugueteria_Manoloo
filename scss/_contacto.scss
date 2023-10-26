@@ -1,0 +1,51 @@
+@import "base";
+
+.formulario{
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    background-color: #ee8700;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    width: 420px;
+    text-align: center;
+}
+
+form h3 {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 35px;
+}
+
+form h4{
+    font-size: 20px;
+    padding: 20px;
+    display: flex;
+    text-align: left;
+}
+
+input{
+    padding: 17px;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(187, 255, 0);
+    margin-bottom: 30px;
+    outline: none;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+}
+
+::placeholder{
+    color: #000000;
+}
+
+.btn{
+    background-color: #f1ce0b;
+}
+
+.btn:hover{
+    background-color: #ffd95b;
+}

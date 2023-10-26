@@ -16,6 +16,7 @@ h2{
     color:nth($color, 2);
     font-size: 30px; 
     font-weight: 900;
+    margin: 10px;
 }
 
 ol{
@@ -26,14 +27,64 @@ ol{
     }  
 }
 
-.irarriba{
-    font-size: 20px; 
-    display: flex;
-    flex-direction: column;
+img{
+    max-width: 100%; 
 }
 
-.padre{
+.baner{
+    color:nth($color, 1); 
+    font-size: 20px;  
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column; 
+    align-items: center;
+}
+.cadenadejugueteria{
+    margin: 25px;
+}
+
+.container-items-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.item{
+    border-radius: 10px;
+}
+.item:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+}
+
+.boton{
+    padding: 15px 30px;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+// Cambiar en juegos y jugues, bebes
+.item img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.item:hover img{
+    transform: scale(1.2);
+}
+//
+.item figure{
+    overflow: hidden;
+}
+button{
+    border: none;
+    background: none;
+    background-color: #f7971e;
+    color:nth($color, 5); 
+    padding: 15px 10px;
+    cursor: pointer;
+    font-size: 30px;
+    font-family: "Caveat", sans-serif;
+    font-weight: bold;
 }
