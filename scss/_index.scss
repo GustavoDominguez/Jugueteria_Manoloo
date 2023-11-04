@@ -87,4 +87,9 @@ button{
     font-size: 30px;
     font-family: "Caveat", sans-serif;
     font-weight: bold;
+    &:hover{
+        color:nth($color, 6);
+        }
+}
+@media (min-width: 768px){
 }
