@@ -30,13 +30,16 @@ ol{
 img{
     max-width: 100%; 
 }
+ %flexrowaligncenter{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+ }
 
 .baner{
     color:nth($color, 1); 
     font-size: 20px;  
-    display: flex;
-    flex-direction: column; 
-    align-items: center;
+    @extend %flexrowaligncenter
 }
 .cadenadejugueteria{
     margin: 25px;
