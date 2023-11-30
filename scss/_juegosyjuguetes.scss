@@ -12,3 +12,32 @@
     object-fit:none;
     border-radius: 10px;
 }
+
+@media (max-width: 768px){
+    .container-items-juguetes{
+        grid-template-columns: repeat(3, 3fr); 
+    }
+
+    .boton h3{
+        font-size: 0px;
+    }
+}
+
+@media (max-width: 480px){
+    .container-items-juguetes{
+        grid-template-columns: repeat(2, 2fr); 
+    }
+    
+    .boton h3{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 320px){
+    .container-items-juguetes{
+        grid-template-columns: repeat(1, 1fr); 
+    }
+    .boton h3{
+        font-size: 20px;
+    }
+}

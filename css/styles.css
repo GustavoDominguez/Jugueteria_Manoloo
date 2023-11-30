@@ -188,6 +188,84 @@ button:hover {
   color: white;
 }
 
+@media (max-width: 768px) {
+  .container-items-cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  header h1 {
+    font-size: 7rem;
+  }
+  nav ul {
+    flex-direction: column;
+  }
+  nav ul li {
+    font-size: 20px;
+  }
+  .item img {
+    width: 100%;
+    height: 200px;
+  }
+  button {
+    padding: 0px 10px;
+  }
+  .padre {
+    flex-direction: column;
+  }
+  .texto h2 {
+    font-size: 25px;
+  }
+}
+@media (max-width: 480px) {
+  .container-items-cards {
+    grid-template-columns: repeat(2, 2fr);
+  }
+  header h1 {
+    font-size: 6rem;
+  }
+  nav ul {
+    flex-direction: column;
+  }
+  .item img {
+    width: 100%;
+    height: 200px;
+  }
+  button {
+    padding: 0px 0px;
+  }
+  .padre {
+    flex-direction: column;
+  }
+  .texto h2 {
+    font-size: 25px;
+  }
+}
+@media (max-width: 320px) {
+  .container-items-cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  header h1 {
+    font-size: 4rem;
+  }
+  nav ul {
+    flex-direction: column;
+  }
+  nav ul li {
+    font-size: 20px;
+  }
+  .item img {
+    width: 100%;
+    height: 200px;
+  }
+  button {
+    padding: 0px 10px;
+  }
+  .padre {
+    flex-direction: column;
+  }
+  .texto h2 {
+    font-size: 25px;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -206,6 +284,22 @@ button:hover {
   border-radius: 10px;
 }
 
+@media (max-width: 480px) {
+  .container-items-bebe {
+    grid-template-columns: repeat(2, 2fr);
+  }
+  .boton h3 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 320px) {
+  .container-items-bebe {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .boton h3 {
+    font-size: 20px;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -224,6 +318,30 @@ button:hover {
   border-radius: 10px;
 }
 
+@media (max-width: 768px) {
+  .container-items-juguetes {
+    grid-template-columns: repeat(3, 3fr);
+  }
+  .boton h3 {
+    font-size: 0px;
+  }
+}
+@media (max-width: 480px) {
+  .container-items-juguetes {
+    grid-template-columns: repeat(2, 2fr);
+  }
+  .boton h3 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 320px) {
+  .container-items-juguetes {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .boton h3 {
+    font-size: 20px;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -235,9 +353,29 @@ button:hover {
   margin: 50px;
 }
 
+.baner h3 {
+  font-size: 30px;
+}
+
+@media (max-width: 480px) {
+  .baner h3 {
+    font-size: 25px;
+  }
+  .baner p {
+    font-size: 20px;
+  }
+  .mapa {
+    margin: 15px;
+  }
+}
 * {
   margin: 0;
   padding: 0;
+}
+
+main h3 {
+  font-size: 25px;
+  color: blue;
 }
 
 .formulario {
@@ -261,7 +399,9 @@ form h3 {
 }
 
 form h4 {
-  font-size: 20px;
+  font-size: 35px;
+  color: black;
+  font-weight: 900;
   padding: 20px;
   display: flex;
   text-align: left;
@@ -279,17 +419,53 @@ input {
 }
 
 ::placeholder {
-  color: #000000;
-  font-size: 16px;
+  color: black;
+  font-size: 20px;
 }
 
 .btn {
   background-color: #f1ce0b;
-  font-size: 20px;
+  font-size: 30px;
+  color: black;
+  font-weight: 900;
 }
 
 .btn:hover {
   background-color: #ffd95b;
+}
+
+@media (max-width: 480px) {
+  form h4 {
+    font-size: 30px;
+  }
+  ::placeholder {
+    color: black;
+    font-size: 15px;
+  }
+  .btn {
+    background-color: #f1ce0b;
+    font-size: 25px;
+  }
+}
+@media (max-width: 480px) {
+  form h4 {
+    font-size: 25px;
+  }
+  ::placeholder {
+    color: black;
+    font-size: 15px;
+  }
+  .btn {
+    background-color: #f1ce0b;
+    font-size: 20px;
+  }
+  form {
+    padding: 15px;
+    width: 300px;
+  }
+  input {
+    padding: 17px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

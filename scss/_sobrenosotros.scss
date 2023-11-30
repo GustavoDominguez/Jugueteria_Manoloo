@@ -1,8 +1,25 @@
 @import "base";
 
-
 .mapa{
     display: flex;
     justify-content: center;
     margin: 50px;
 }
+.baner h3{
+    font-size: 30px;
+}
+
+@media (max-width: 480px){
+    .baner h3{
+        font-size: 25px;
+    }
+
+    .baner p{
+        font-size: 20px;
+    } 
+
+    .mapa{
+        margin: 15px;
+    }
+}
+

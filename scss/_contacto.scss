@@ -1,5 +1,10 @@
 @import "base";
 
+main h3{
+    font-size: 25px;
+    color: blue;
+}
+
 .formulario{
     display: flex;
     justify-content: center;
@@ -21,7 +26,9 @@ form h3 {
 }
 
 form h4{
-    font-size: 20px;
+    font-size: 35px;
+    color: black;
+    font-weight: 900;
     padding: 20px;
     display: flex;
     text-align: left;
@@ -39,15 +46,60 @@ input{
 }
 
 ::placeholder{
-    color: #000000;
-    font-size: 16px;
+    color: black;
+    font-size: 20px;
 }
 
 .btn{
     background-color: #f1ce0b;
-    font-size: 20px;
+    font-size: 30px;
+    color: black;
+    font-weight: 900;
 }
 
 .btn:hover{
     background-color: #ffd95b;
+}
+
+@media (max-width: 480px){
+    form h4{
+        font-size: 30px;
+    }
+
+    ::placeholder{
+        color: black;
+        font-size: 15px;
+    }
+
+    .btn{
+        background-color: #f1ce0b;
+        font-size: 25px;
+    }
+
+}
+
+@media (max-width: 480px){
+    form h4{
+        font-size: 25px;
+    }
+
+    ::placeholder{
+        color: black;
+        font-size: 15px;
+    }
+
+    .btn{
+        background-color: #f1ce0b;
+        font-size: 20px;
+    }
+
+    form{
+        padding: 15px;
+        width: 300px;
+    }
+
+    input{
+        padding: 17px;
+    }
+
 }
